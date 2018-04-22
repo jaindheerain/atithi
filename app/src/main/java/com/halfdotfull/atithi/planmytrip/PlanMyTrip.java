@@ -55,7 +55,7 @@ public class PlanMyTrip extends AppCompatActivity {
         hourSecond=findViewById(R.id.hourSecond);
 
         arrayListLocation=new ArrayList<>();
-        blogApi= RetrofitSingelton.createService1(BlogApi.class);
+        blogApi= RetrofitSingelton.INSTANCE.createService1(BlogApi.class);
 
         ok=findViewById(R.id.loginBtn);
         ok.setOnClickListener(new View.OnClickListener() {
