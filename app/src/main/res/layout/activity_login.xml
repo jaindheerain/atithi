@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:layout_weight="10"
+    tools:context="com.halfdotfull.atithi.login.View.LoginActivity">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/smartphone" />
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:background="#eaeaea"
+        android:layout_height="2dp"></View>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:text="Please enter your mobile number to login."
+        android:textSize="16sp"
+        android:id="@+id/loginDetailTv"
+        android:gravity="center"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
+        android:id="@+id/phoneNumberTil">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/phoneNumberEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:focusedByDefault="false"
+            android:hint="Phone Number"
+            android:inputType="phone" />
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="2"
+        android:visibility="gone"
+        app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
+        android:id="@+id/otpTil">
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/otpEt"
+            android:focusedByDefault="false"
+            android:inputType="phone"
+            android:layout_gravity="center"
+            android:hint="OTP" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="2"
+        android:visibility="gone"
+        app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
+        android:id="@+id/nameTil">
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameEt"
+            android:focusedByDefault="false"
+            android:inputType="text"
+            android:layout_gravity="center"
+            android:hint="Name" />
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="Next"
+        android:id="@+id/loginBtn"
+        android:textColor="@android:color/white"
+        android:background="@drawable/login_btn"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"/>
+
+
+
+
+
+</LinearLayout>
