@@ -1,11 +1,57 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/appBtnColor</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/lightOrange</item>
+        <item name="android:fontFamily">@font/muli_semibold</item>
+        <item name="colorControlActivated">@color/lightOrange</item>
+        <item name="android:windowLightStatusBar">true</item>
     </style>
+
+    <style name="NActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/appBtnColor</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/lightOrange</item>
+        <item name="android:fontFamily">@font/muli_semibold</item>
+        <item name="colorControlActivated">@color/lightOrange</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!--<item name="android:windowDrawsSystemBarBackgrounds">true</item>-->
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="TextAppearance.App.TextInputLayout" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/lightOrange</item>
+        <item name="android:fontFamily">@font/muli_semibold</item>
+        <item name="colorControlActivated">@color/lightOrange</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="MyTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/MyTheme.ActionBarStyle</item>
+    </style>
+
+    <style name="MyTheme.ActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:titleTextStyle">@style/MyTheme.ActionBar.TitleTextStyle</item>
+        <item name="android:fontFamily">@font/muli_semibold</item>
+    </style>
+
+    <style name="MyTheme.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/appBtnColor</item>
+        <item name="android:textColorPrimary">@color/appBtnColor</item>
+        <item name="android:textColorSecondary">@color/appBtnColor</item>
+        <item name="actionMenuTextColor">@color/appBtnColor</item>
+        <item name="android:fontFamily">@font/muli_semibold</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark"/> >
 
 </resources>

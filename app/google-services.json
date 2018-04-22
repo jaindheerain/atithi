@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "813908973190",
+    "firebase_url": "https://atithi-52e5d.firebaseio.com",
+    "project_id": "atithi-52e5d",
+    "storage_bucket": "atithi-52e5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813908973190:android:e5e66a8901a1be11",
+        "android_client_info": {
+          "package_name": "com.halfdotfull.atithi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813908973190-u86e8o9rnvt3fcdmui5mmgkohvkfbk0t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.halfdotfull.atithi",
+            "certificate_hash": "810cde24cd47fb92974a9009a90a1b9151039754"
+          }
+        },
+        {
+          "client_id": "813908973190-nnsk8ute39ff8epccnqf1t8f5k3m48mc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg_F-2myPDvicIYAhlRD9LLOUd7j8vtEM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813908973190-nnsk8ute39ff8epccnqf1t8f5k3m48mc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

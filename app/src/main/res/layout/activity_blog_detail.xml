@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.halfdotfull.atithi.blog.BLogDetailActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:scaleY="1"
+                android:id="@+id/blogIv"
+                android:src="@drawable/rajasthannight" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Half.FULL wins Hackathon 4.0"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:textSize="24sp"
+            android:singleLine="true"
+            android:layout_marginTop="5dp"
+            android:id="@+id/titleTv"
+            android:textColor="@android:color/black"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:id="@+id/location"
+                android:textColor="@color/appBtnColor"
+                tools:text="Rajasthan College"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textColor="@color/appBtnColor"
+                android:text="4.8 star"
+                android:id="@+id/rating"
+                android:textSize="18sp"
+                android:gravity="right"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:id="@+id/blog"
+            android:textSize="17sp"
+            tools:text="Welcome to the “Land of Kings”. Rajasthan is a true state of contrasts, and Rajasthan travel reflects that!
+From desert scrub to holy lakes, one thing that is hard to grasp for the first-time (or even repeat) visitor is the sheer size of the place. I was fortunate enough to have three weeks to explore the desert state. Even that wasn’t sufficient to get to all of the major sights. I did, however, linger longer in areas that would be easier to pass through in a shorter time frame. I also went well off the path more trodden on a couple of occasions—which meant more travel time.
+In researching a state of contrasts, I was happy to find that the relatively well-developed tourism infrastructure is matched by the gradual appearance of eco-friendly options. More than that, were the options which make an effort to connect visitors to Rajasthani culture beyond a superficial level. Thereby creating more opportunities for responsible travel in Rajasthan.
+Here is my guide to ethical travel in Rajasthan, covering places to stay, attractions and activities. This covers different ethical tourism efforts that are being made, from improving environmental sustainability, to sharing the economic benefits of tourism with the local community.
+This Rajasthan blog covers travel in Jaipur, Pushkar, Udaipur, Jodhpur, the Thar Desert, Jaisalmer and Bikaner.
+Do you have suggestions to add to this list? Let me know at the comments section at the end and I’ll add them to this Rajasthan travel blog."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-2dp"
+            android:text="_________"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="."/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:weightSum="10">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/ic_launcher"
+                app:civ_border_width="3dp"
+                app:civ_border_color="@color/white"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/authorName"
+                    tools:text="Harsh Mohan Agarwal"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4.4 stars"/>
+            </LinearLayout>
+            <android.support.v4.widget.Space
+                android:layout_width="0dp"
+                android:layout_weight=".5"
+                android:layout_height="match_parent" />
+
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center|right"
+                android:layout_weight="2.5"
+                android:background="@drawable/follow_btn"
+                android:id="@+id/followBtn"
+                android:text="Follow"
+                android:textColor="@color/appBtnColor" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>

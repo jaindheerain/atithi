@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.halfdotfull.atithi.planmytrip.PlanMyTrip">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="120dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"
+        android:layout_below="@+id/appBarLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@mipmap/excursion"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="Let our AI take care of all your planning and take you to places you've never been "
+        android:textSize="18dp" />
+
+
+   <LinearLayout
+       android:layout_marginTop="10dp"
+       android:layout_width="wrap_content"
+       android:layout_height="0dp"
+       android:layout_gravity="center"
+       android:layout_marginLeft="30dp"
+       android:layout_marginRight="30dp"
+       android:layout_weight="0.1">
+       <View
+           android:layout_width="30dp"
+           android:layout_height="match_parent"></View>
+       <EditText
+           android:layout_width="30dp"
+           android:hint="0"
+           android:inputType="number"
+           android:maxLength="1"
+           android:id="@+id/hourFirst"
+           android:gravity="center"
+           android:textSize="24dp"
+           android:layout_height="match_parent" />
+       <View
+           android:layout_width="10dp"
+           android:layout_height="match_parent"></View>
+       <EditText
+           android:layout_width="30dp"
+           android:hint="8"
+           android:id="@+id/hourSecond"
+           android:inputType="number"
+           android:maxLength="1"
+           android:gravity="center"
+           android:textSize="24dp"
+           android:layout_height="match_parent" />
+       <TextView
+           android:layout_marginLeft="8dp"
+           android:layout_width="30dp"
+           android:text="hrs"
+           android:layout_height="wrap_content" />
+   </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Free time"
+        android:layout_margin="4dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.05"/>
+    <CheckBox
+        android:layout_marginTop="10dp"
+        android:id="@+id/boolEating"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Munch your way through the trip ?"
+        android:layout_weight="0.1"/>
+
+    <CheckBox
+        android:id="@+id/boolHidden"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="The hidden city gems"
+        android:layout_weight="0.1"/>
+
+    <CheckBox
+        android:id="@+id/boolShop"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Wanna shop ?"
+        android:layout_weight="0.1"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"></View>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:layout_gravity="center"
+        android:text="Next"
+        android:id="@+id/loginBtn"
+        android:textColor="@android:color/white"
+        android:background="@drawable/login_btn"/>
+
+
+</LinearLayout>

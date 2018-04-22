@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">The Guide</string>
+    <string name="title_activity_nav">@string/app_name</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_sign_out">Sign Out</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="KEY">AIzaSyCaIQWiu6S6TNf37xfAH3cMOjhK6upds_g</string>
 </resources>
